@@ -4,25 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Workshop Website</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="./script.js"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body class="">
+  <body class="bg-gray-100 text-gray-900">
     <!-- Header -->
     <header class="">
       <div class="">
         <h1 class="">Awesome BEST Event</h1>
         <nav>
-          <a href="#schedule" class="">Schedule</a>
+          <!-- Every "a" element is a link - the # points it to an element in our page -->
           <a href="#speakers" class="">Speakers</a>
           <a href="#contact" class="">Contact</a>
+          <!-- <a href="https://google.com/">Sign-Up</a> -->
         </nav>
       </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="">
+    <section class="py-24">
       <div class="">
         <h2 class="">Join the Ultimate Event Experience</h2>
         <p class="">
@@ -33,59 +33,38 @@
       </div>
     </section>
 
-    <!-- Schedule Section -->
-    <section id="schedule" class="">
-      <div class="">
-        <h2 class="">Event Schedule</h2>
-        <div class="">
-          <div class="">
-            <h3 class="">Day 1 - Keynote</h3>
-            <p>Introduction to the event and opening keynote by CEO.</p>
-          </div>
-          <div class="">
-            <h3 class="">Day 2 - Workshops</h3>
-            <p>Hands-on workshops with industry experts.</p>
-          </div>
-          <div class="">
-            <h3 class="">Day 3 - Networking</h3>
-            <p>Networking sessions with professionals and peers.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Speakers Section -->
-    <section id="speakers" class="">
+    <section id="speakers" class="py-16">
       <div class="">
         <h2 class="">Speakers</h2>
         <div class="">
-          <div class="bg-white p-6 shadow-lg rounded-lg">
+          <div class="">
             <img
               src="https://via.placeholder.com/150"
               alt="Speaker 1"
               class=""
             />
-            <h3 class="text-xl font-bold">Jane Doe</h3>
+            <h3 class="">Jane Doe</h3>
             <p>CEO of TechCorp</p>
           </div>
-          <div class="bg-white p-6 shadow-lg rounded-lg">
+          <div class="">
             <img
               src="https://via.placeholder.com/150"
               alt="Speaker 2"
               class=""
             />
-            <h3 class="text-xl font-bold">John Smith</h3>
+            <h3 class="">John Smith</h3>
             <p>Founder of Innovate Inc.</p>
           </div>
-          <div class="bg-white p-6 shadow-lg rounded-lg">
+          <!-- <div class="">
             <img
               src="https://via.placeholder.com/150"
               alt="Speaker 3"
               class=""
             />
-            <h3 class="text-xl font-bold">Sara Lee</h3>
+            <h3 class="">Sara Lee</h3>
             <p>CTO of FutureWorks</p>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -93,8 +72,9 @@
     <!-- Footer -->
     <footer class="">
       <div class="">
-        <p>&copy; 2024 Awesome Event. All rights reserved.</p>
+        <p>&copy; 2024 BEST Lisbon. All rights reserved.</p>
       </div>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
