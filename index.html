@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Workshop Website</title>
+    <!-- The line below links the tailwindCSS framwork - uncomment it to use the classes -->
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+    <!-- This line includes the css file in our folder -->
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <!-- This is what is actually shown to the users -->
@@ -17,7 +20,7 @@
         <h1 class="">Awesome BEST Event</h1>
         <nav>
           <!-- Every "a" element is a link - the href points it to another place or an element in our page -->
-          <a href="#speakers" class="">Speakers</a>
+          <a href="#team" class="">Team</a>
           <a href="#contact" class="">Contact</a>
           <!-- <a href="https://google.com/">Sign-Up</a> -->
         </nav>
@@ -36,10 +39,10 @@
       </div>
     </section>
 
-    <!-- Speakers Section -->
-    <section id="speakers" class="py-16">
+    <!-- Team Section -->
+    <section id="team" class="py-16">
       <div class="">
-        <h2 class="">Speakers</h2>
+        <h2 class="">Team</h2>
         <div class="">
           <div class="">
             <img
@@ -47,8 +50,8 @@
               alt="Speaker 1"
               class=""
             />
-            <h3 class="">Jane Doe</h3>
-            <p>CEO of TechCorp</p>
+            <h3 class="">Person One</h3>
+            <p>Main Organizer</p>
           </div>
           <div class="">
             <img
@@ -56,18 +59,10 @@
               alt="Speaker 2"
               class=""
             />
-            <h3 class="">John Smith</h3>
-            <p>Founder of Innovate Inc.</p>
+            <h3 class="">Person Two</h3>
+            <p>Secretary</p>
           </div>
-          <!-- <div class="">
-            <img
-              src="https://static.vecteezy.com/system/resources/thumbnails/021/548/095/small/default-profile-picture-avatar-user-avatar-icon-person-icon-head-icon-profile-picture-icons-default-anonymous-user-male-and-female-businessman-photo-placeholder-social-network-avatar-portrait-free-vector.jpg"
-              alt="Speaker 3"
-              class=""
-            />
-            <h3 class="">Sara Lee</h3>
-            <p>CTO of FutureWorks</p>
-          </div> -->
+          <!-- Add the third position here -->
         </div>
       </div>
     </section>
@@ -78,6 +73,8 @@
         <p>&copy; 2024 BEST Lisbon. All rights reserved.</p>
       </div>
     </footer>
+
+    <!-- Include our Javascript file -->
     <script src="./script.js"></script>
   </body>
 </html>
