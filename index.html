@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Workshop Website</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="./script.js"></script>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body class="bg-gray-100 text-gray-900">
@@ -13,10 +12,11 @@
     <header class="bg-blue-600 text-white py-4">
       <div class="container mx-auto flex justify-between items-center">
         <h1 class="text-3xl font-bold">Awesome BEST Event</h1>
-        <nav>
+        <nav class="font-medium">
           <a href="#team" class="px-4">Team</a>
           <a href="#contacts" class="px-4">Contacts</a>
           <a href="https://google.com" class="px-4">Sign-Up</a>
+          <button id="changeTheme" class="px-4">🎨</button>
         </nav>
       </div>
     </header>
@@ -83,4 +83,5 @@
       </div>
     </footer>
   </body>
+  <script src="./script.js"></script>
 </html>
